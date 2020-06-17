@@ -1,0 +1,74 @@
+{
+    "companies": [
+        {
+            "name": "Google",
+            "products": [
+                "Gmail",
+                "Calendar",
+                "Search",
+                "AdWords",
+                "News",
+                "Finance",
+                "Maps",
+                "Drive",
+                "Hangouts",
+                "Play Store",
+                "Docs",
+                "Sheets",
+                "Settings"
+            ]
+        },
+        {
+            "name": "YouTube",
+            "products": [
+                "Search Results",
+                "TV",
+                "Music",
+                "Red",
+                "Settings"
+            ]
+        },
+        {
+            "name": "Twitter",
+            "products": [
+                "Latest Tweets",
+                "Explore",
+                "Messages",
+                "Lists",
+                "Profile page",
+                "Reply",
+                "Retweet",
+                "Likes",
+                "Share",
+                "Tweet Analytics",
+                "Who to follow",
+                "Settings"
+            ]
+        },
+        {
+            "name": "Facebook",
+            "products": [
+                "News Feed",
+                "Messenger",
+                "Events",
+                "Pages",
+                "Marketplace",
+                "Groups",
+                "Live",
+                "Profile page",
+                "Settings"
+            ]
+        },
+        {
+            "name": "Instagram",
+            "products": [
+                "Home",
+                "Suggestions For You",
+                "Direct Messages",
+                "Explore",
+                "Profile page",
+                "Settings"
+            ]
+        }
+    ]
+}
