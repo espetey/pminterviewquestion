@@ -81,7 +81,7 @@ function App() {
         <div className="info">
           <p>
             <h3>What is this thing?</h3>
-            I would love to be a product manager at a great technology company. I decided to build a quick app to help me step through various recommended interview questions in a way that mimics a real interview. It is also a good script for the friends I convince to give me a mock interview. I hope it will useful for anyone else who is going through the same process.
+            I would love to be a product manager at a great technology company. I decided to build a quick app to help me step through various recommended interview questions in a way that mimics a real interview. It is also a good script for the friends I convince to give me a mock interview. I hope it will be useful for anyone else who is going through the same process.
           </p>
         </div>
         <div className="info">
