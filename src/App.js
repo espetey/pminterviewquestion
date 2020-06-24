@@ -86,6 +86,12 @@ function App() {
           </p>
         </div>
         <div className="info">
+          <p>
+            <h3>Data collection and analytics</h3>
+            I use Google Analytics for this app to measure usage and to learn more about Google's Analytics platform in general.
+          </p>
+        </div>
+        <div className="info">
           <h1><a name="data" />Data</h1>
           <p>These are some roundings and rough estimations of data points which may enlighten your answers. "+" indicates I rounded down. "-" indicates I rounded up. Colloquially, you would say "1+ billion" as "Just over one billion..." and "1- billion" as "Just under one billion..."</p>
           <h3>Population<sup>1</sup></h3>
