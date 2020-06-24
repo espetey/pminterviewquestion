@@ -1,22 +1,33 @@
 import React, { useState, useEffect } from 'react';
-import { get, sample, sampleSize } from 'lodash';
+import { get, sample, sampleSize, has } from 'lodash';
 import './App.css';
 import companies from './data/companies';
 import questions from './data/questions';
 import interviewers from './interviewers';
 
+function buildQuestion(q) {
+  const question = get(q, 'question');
+  if (has(q, 'useVariables')) {
+    const company = sample(companies());
+    const companyName = get(company, 'name');
+    const companyProduct = sample(get(company, 'products'));
+    return question.replace(`__companyName__`, companyName).replace(`__companyProduct__`, companyProduct);
+  }  
+  return question;
+}
+
 function buildInterview(q) {
   return [
     get(q, 'courtesy.opener[0].question'),
-    ...sampleSize(get(q, 'general.general'), 4).map(s => get(s, 'question')),
-    ...sampleSize(get(q, 'communication.leadership'), 4).map(s => get(s, 'question')),
-    ...sampleSize(get(q, 'communication.behavioral'), 4).map(s => get(s, 'question')),
-    ...sampleSize(get(q, 'communication.conflict'), 4).map(s => get(s, 'question')),
-    ...sampleSize(get(q, 'product.design'), 4).map(s => get(s, 'question')),
-    ...sampleSize(get(q, 'product.strategy'), 4).map(s => get(s, 'question')),
-    ...sampleSize(get(q, 'technical.general'), 4).map(s => get(s, 'question')),
-    ...sampleSize(get(q, 'technical.analysis'), 4).map(s => get(s, 'question')),
-    ...sampleSize(get(q, 'technical.engineering'), 4).map(s => get(s, 'question')),
+    ...sampleSize(get(q, 'general.general'), 4).map(s => buildQuestion(s)),
+    ...sampleSize(get(q, 'communication.leadership'), 4).map(s => buildQuestion(s)),
+    ...sampleSize(get(q, 'communication.behavioral'), 4).map(s => buildQuestion(s)),
+    ...sampleSize(get(q, 'communication.conflict'), 4).map(s => buildQuestion(s)),
+    ...sampleSize(get(q, 'product.design'), 4).map(s => buildQuestion(s)),
+    ...sampleSize(get(q, 'product.strategy'), 4).map(s => buildQuestion(s)),
+    ...sampleSize(get(q, 'technical.general'), 4).map(s => buildQuestion(s)),
+    ...sampleSize(get(q, 'technical.analysis'), 4).map(s => buildQuestion(s)),
+    ...sampleSize(get(q, 'technical.engineering'), 4).map(s => buildQuestion(s)),
     get(q, 'courtesy.closer[0].question'),
     get(q, 'courtesy.closer[1].question')
   ]
@@ -32,7 +43,7 @@ function App() {
 
   return (
     <div className="App-Container">
-      <a name="top" />
+      <a name="top">Top</a>
       <header className="App-header">
         <div><a href="#top">PM Interview Question</a></div>
         <div><a href="#about">About</a></div>
@@ -49,19 +60,19 @@ function App() {
               className="Next-btn"
               onClick={() => setQuestionCount(questionCount + 1)}
             >
-              Next
-          </button>
+              Next Question
+            </button>
           </div>
         </div>
       </div>
       <div className="About">
         <div className="info">
-          <h1><a name="about" />About</h1>
+          <h1><a name="about">About</a></h1>
           <p>
             Interested in getting a PM interview question each morning to workshop during your day?
           </p>
           <p>
-            <a href="http://eepurl.com/g7LcNn" target="_blank">Sign up for the daily newsletter</a>. I will never share your email.
+            <a href="http://eepurl.com/g7LcNn" target="_blank" rel="noopener noreferrer">Sign up for the daily newsletter</a>. I will never share your email.
           </p>
           <p>
             Since I'm currently preparing for PM interviews, I'll also include either my full-blown answer from the day before or just some meditations/brainstorming on the previous day's question. If you feel like replying to the email with your response, I will try to give some feedback in exchange for some feedback on my own answer.
@@ -76,13 +87,13 @@ function App() {
         <div className="info">
           <p>
             <h3>Add a question, company, or product</h3>
-            <a className="App-link" href="https://github.com/espetey/pminterviewquestion" target="_blank">Open a pull request on GitHub</a>.
+            <a className="App-link" href="https://github.com/espetey/pminterviewquestion" target="_blank" rel="noopener noreferrer">Open a pull request on GitHub</a>.
           </p>
         </div>
         <div className="info">
           <p>
             <h3>Why the pictures of people?</h3>
-            This fun little website is no substitue for interviewing with real people, either in an actual job interview or with a friend or colleague in a mock interview setting. But I thought a random stock picture with someone would be good practice for making eye contact. If you have suggestions for other pictures, think any of the ones I'm using are too creepy, or have any other ideas, <a className="App-link" href="https://github.com/espetey/pminterviewquestion" target="_blank">open a pull request on GitHub</a> or <a href="https://twitter.com/espetey" target="_blank">talk to me on Twitter</a>.
+            This fun little website is no substitue for interviewing with real people, either in an actual job interview or with a friend or colleague in a mock interview setting. But I thought a random stock picture with someone would be good practice for making eye contact. If you have suggestions for other pictures, think any of the ones I'm using are too creepy, or have any other ideas, <a className="App-link" href="https://github.com/espetey/pminterviewquestion" target="_blank" rel="noopener noreferrer">open a pull request on GitHub</a> or <a href="https://twitter.com/espetey" target="_blank" rel="noopener noreferrer">talk to me on Twitter</a>.
           </p>
         </div>
         <div className="info">
@@ -92,7 +103,7 @@ function App() {
           </p>
         </div>
         <div className="info">
-          <h1><a name="data" />Data</h1>
+          <h1><a name="data">Data</a></h1>
           <p>These are some roundings and rough estimations of data points which may enlighten your answers. "+" indicates I rounded down. "-" indicates I rounded up. Colloquially, you would say "1+ billion" as "Just over one billion..." and "1- billion" as "Just under one billion..."</p>
           <h3>Population<sup>1</sup></h3>
           <table className="data-table">
