@@ -340,19 +340,19 @@ function App() {
           </table>
           <p>
             <h3>References</h3>
-            <p>1 <a target="_blank" href="https://www.worldometers.info/world-population/">https://www.worldometers.info/world-population/</a></p>
-            <p>2 <a target="_blank" href="https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy">https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy</a></p>
-            <p>3 <a target="_blank" href="https://www.computerhope.com/issues/chspace.htm">https://www.computerhope.com/issues/chspace.htm</a></p>
-            <p>4 <a target="_blank" href="https://wallethacks.com/average-median-income-in-america/">https://wallethacks.com/average-median-income-in-america/</a></p>
-            <p>5 <a target="_blank" href="https://www.theverge.com/2019/1/29/18202736/apple-devices-ios-earnings-q1-2019">https://www.theverge.com/2019/1/29/18202736/apple-devices-ios-earnings-q1-2019</a></p>
-            <p>6 <a target="_blank" href="https://news.microsoft.com/bythenumbers/en/windowsdevices">https://news.microsoft.com/bythenumbers/en/windowsdevices</a></p>
-            <p>7 <a target="_blank" href="https://www.statista.com/statistics/264810/number-of-monthly-active-facebook-users-worldwide/">https://www.statista.com/statistics/264810/number-of-monthly-active-facebook-users-worldwide/</a></p>
-            <p>8 <a target="_blank" href="https://www.statista.com/statistics/253577/number-of-monthly-active-instagram-users/">https://www.statista.com/statistics/253577/number-of-monthly-active-instagram-users/</a></p>
-            <p>9 <a target="_blank" href="https://www.statista.com/statistics/242606/number-of-active-twitter-users-in-selected-countries/">https://www.statista.com/statistics/242606/number-of-active-twitter-users-in-selected-countries/</a></p>
-            <p>10 <a target="_blank" href="https://www.statista.com/statistics/545967/snapchat-app-dau/">https://www.statista.com/statistics/545967/snapchat-app-dau/</a></p>
-            <p>11 <a target="_blank" href="https://www.statista.com/topics/951/linkedin/">https://www.statista.com/topics/951/linkedin/</a></p>
-            <p>12 <a target="_blank" href="https://www.statista.com/statistics/546894/number-of-amazon-prime-paying-members/">https://www.statista.com/statistics/546894/number-of-amazon-prime-paying-members/</a></p>
-            <p>13 <a target="_blank" href="https://www.statista.com/statistics/250934/quarterly-number-of-netflix-streaming-subscribers-worldwide/">https://www.statista.com/statistics/250934/quarterly-number-of-netflix-streaming-subscribers-worldwide/</a></p>
+            <p>1 <a target="_blank" rel="noopener noreferrer" href="https://www.worldometers.info/world-population/">https://www.worldometers.info/world-population/</a></p>
+            <p>2 <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy">https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy</a></p>
+            <p>3 <a target="_blank" rel="noopener noreferrer" href="https://www.computerhope.com/issues/chspace.htm">https://www.computerhope.com/issues/chspace.htm</a></p>
+            <p>4 <a target="_blank" rel="noopener noreferrer" href="https://wallethacks.com/average-median-income-in-america/">https://wallethacks.com/average-median-income-in-america/</a></p>
+            <p>5 <a target="_blank" rel="noopener noreferrer" href="https://www.theverge.com/2019/1/29/18202736/apple-devices-ios-earnings-q1-2019">https://www.theverge.com/2019/1/29/18202736/apple-devices-ios-earnings-q1-2019</a></p>
+            <p>6 <a target="_blank" rel="noopener noreferrer" href="https://news.microsoft.com/bythenumbers/en/windowsdevices">https://news.microsoft.com/bythenumbers/en/windowsdevices</a></p>
+            <p>7 <a target="_blank" rel="noopener noreferrer" href="https://www.statista.com/statistics/264810/number-of-monthly-active-facebook-users-worldwide/">https://www.statista.com/statistics/264810/number-of-monthly-active-facebook-users-worldwide/</a></p>
+            <p>8 <a target="_blank" rel="noopener noreferrer" href="https://www.statista.com/statistics/253577/number-of-monthly-active-instagram-users/">https://www.statista.com/statistics/253577/number-of-monthly-active-instagram-users/</a></p>
+            <p>9 <a target="_blank" rel="noopener noreferrer" href="https://www.statista.com/statistics/242606/number-of-active-twitter-users-in-selected-countries/">https://www.statista.com/statistics/242606/number-of-active-twitter-users-in-selected-countries/</a></p>
+            <p>10 <a target="_blank" rel="noopener noreferrer" href="https://www.statista.com/statistics/545967/snapchat-app-dau/">https://www.statista.com/statistics/545967/snapchat-app-dau/</a></p>
+            <p>11 <a target="_blank" rel="noopener noreferrer" href="https://www.statista.com/topics/951/linkedin/">https://www.statista.com/topics/951/linkedin/</a></p>
+            <p>12 <a target="_blank" rel="noopener noreferrer" href="https://www.statista.com/statistics/546894/number-of-amazon-prime-paying-members/">https://www.statista.com/statistics/546894/number-of-amazon-prime-paying-members/</a></p>
+            <p>13 <a target="_blank" rel="noopener noreferrer" href="https://www.statista.com/statistics/250934/quarterly-number-of-netflix-streaming-subscribers-worldwide/">https://www.statista.com/statistics/250934/quarterly-number-of-netflix-streaming-subscribers-worldwide/</a></p>
           </p>
         </div>
       </div>
