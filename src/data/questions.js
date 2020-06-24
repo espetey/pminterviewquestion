@@ -116,7 +116,7 @@ export default function questions() {
                 }, {
                     "question": "What is the most innovative idea you've ever had?"
                 }, {
-                    "question": "When wa sa time that you failed at work?"
+                    "question": "When was a time that you failed at work?"
                 }, {
                     "question": "Demonstrate how you align with the __companyName__ leadership philosophy",
                     "useVariables": true
