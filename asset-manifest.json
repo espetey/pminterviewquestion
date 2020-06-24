@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/pminterviewquestion/static/css/main.6eae975f.chunk.css",
+    "main.js": "/pminterviewquestion/static/js/main.f7c8a64c.chunk.js",
+    "main.js.map": "/pminterviewquestion/static/js/main.f7c8a64c.chunk.js.map",
+    "runtime-main.js": "/pminterviewquestion/static/js/runtime-main.b6345e8d.js",
+    "runtime-main.js.map": "/pminterviewquestion/static/js/runtime-main.b6345e8d.js.map",
+    "static/js/2.c7185e8b.chunk.js": "/pminterviewquestion/static/js/2.c7185e8b.chunk.js",
+    "static/js/2.c7185e8b.chunk.js.map": "/pminterviewquestion/static/js/2.c7185e8b.chunk.js.map",
+    "index.html": "/pminterviewquestion/index.html",
+    "precache-manifest.b8cf45f96c53fd97ee3c9b145cc9830d.js": "/pminterviewquestion/precache-manifest.b8cf45f96c53fd97ee3c9b145cc9830d.js",
+    "service-worker.js": "/pminterviewquestion/service-worker.js",
+    "static/css/main.6eae975f.chunk.css.map": "/pminterviewquestion/static/css/main.6eae975f.chunk.css.map",
+    "static/js/2.c7185e8b.chunk.js.LICENSE.txt": "/pminterviewquestion/static/js/2.c7185e8b.chunk.js.LICENSE.txt",
+    "static/media/0.jpg": "/pminterviewquestion/static/media/0.b9f859ae.jpg",
+    "static/media/1.jpg": "/pminterviewquestion/static/media/1.6489ea0d.jpg",
+    "static/media/10.jpg": "/pminterviewquestion/static/media/10.d23abedc.jpg",
+    "static/media/11.jpg": "/pminterviewquestion/static/media/11.7c5197f6.jpg",
+    "static/media/12.jpg": "/pminterviewquestion/static/media/12.97e022c6.jpg",
+    "static/media/13.jpg": "/pminterviewquestion/static/media/13.1e21b300.jpg",
+    "static/media/14.jpg": "/pminterviewquestion/static/media/14.01078f67.jpg",
+    "static/media/15.jpg": "/pminterviewquestion/static/media/15.ae903210.jpg",
+    "static/media/16.jpg": "/pminterviewquestion/static/media/16.b9537a96.jpg",
+    "static/media/17.jpg": "/pminterviewquestion/static/media/17.f0eef78f.jpg",
+    "static/media/2.jpg": "/pminterviewquestion/static/media/2.509444f7.jpg",
+    "static/media/3.jpg": "/pminterviewquestion/static/media/3.565e9afa.jpg",
+    "static/media/4.jpg": "/pminterviewquestion/static/media/4.318aa42c.jpg",
+    "static/media/5.jpg": "/pminterviewquestion/static/media/5.8e136f0c.jpg",
+    "static/media/6.jpg": "/pminterviewquestion/static/media/6.e729ca52.jpg",
+    "static/media/7.jpg": "/pminterviewquestion/static/media/7.2fb282f3.jpg",
+    "static/media/8.jpg": "/pminterviewquestion/static/media/8.d598dff0.jpg",
+    "static/media/9.jpg": "/pminterviewquestion/static/media/9.1c219261.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6345e8d.js",
+    "static/js/2.c7185e8b.chunk.js",
+    "static/css/main.6eae975f.chunk.css",
+    "static/js/main.f7c8a64c.chunk.js"
+  ]
+}
