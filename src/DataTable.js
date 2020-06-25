@@ -232,11 +232,11 @@ function DataTable() {
                     <td>110 million</td>
                 </tr>
                 <tr>
-                    <td>Amazon Prime, avg yearly spend/subscriber<sup>12</sup></td>
+                    <td>Amazon, avg yearly spend/subscriber<sup>12</sup></td>
                     <td>$1,400</td>
                 </tr>
                 <tr>
-                    <td>Amazon Prime, avg yearly spend/non-subscriber<sup>12</sup></td>
+                    <td>Amazon, avg yearly spend/non-subscriber<sup>12</sup></td>
                     <td>$600</td>
                 </tr>
                 <tr>

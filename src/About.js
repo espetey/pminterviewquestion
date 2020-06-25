@@ -36,7 +36,7 @@ function About() {
             <li>Technical/Engineering - 4 questions</li>
             <li>Courtesy closers - 2 questions</li>
           </ul>
-          I have included "Technical/Engineering" questions by default for coverage on Technical Product Manager positions. As time permits I'll add a few bells and whistles here to customize the question flow for other own configurations (technical/non-technical, company specific, and category specific).
+          I have included "Technical/Engineering" questions by default for coverage on Technical Product Manager positions. As time permits I'll add a few bells and whistles here to customize the question flow for other configurations (technical/non-technical, company specific, and category specific).
         </p>
       </div>
       <div className="info">
