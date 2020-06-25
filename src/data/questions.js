@@ -8,7 +8,7 @@ export default function questions() {
             ],
             "closer": [
                 {
-                    "question": "Is there anything we haven’t asked you that we should have?"
+                    "question": "Is there anything we haven't asked you that we should have?"
                 }, {
                     "question": "Do you have any questions for us?"
                 },
@@ -25,7 +25,7 @@ export default function questions() {
                 }, {
                     "question": "Tell us about a project you've led and discuss prioritization, resourcing, stakeholder management, conflict management, major challenges and solutions, communication, measurement, and outcome."
                 }, {
-                    "question": "Tell us what the job is you’re applying for, and why it’s a great fit for your career."
+                    "question": "Tell us what the job is you're applying for, and why it's a great fit for your career."
                 }, {
                     "question": "Why product?"
                 }, {
@@ -42,15 +42,15 @@ export default function questions() {
                 }, {
                     "question": "Where do you see yourself in five years?"
                 }, {
-                    "question": "What is the most difficult decision you’ve ever had to make?"
+                    "question": "What is the most difficult decision you've ever had to make?"
                 }, {
                     "question": "What do you need from your manager to be successful?"
                 }, {
                     "question": "How do you say no to people?"
                 }, {
-                    "question": "What is one of the best ideas you’ve ever had?"
+                    "question": "What is one of the best ideas you've ever had?"
                 }, {
-                    "question": "What is one of the worst ideas you’ve ever had?"
+                    "question": "What is one of the worst ideas you've ever had?"
                 }, {
                     "question": "How can you translate your skills to work at __companyName__?",
                     "useVariables": true
@@ -73,7 +73,7 @@ export default function questions() {
                 }, {
                     "question": "Tell us about a time you had to prioritize tasks."
                 }, {
-                    "question": "What’s the first thing you’d do if we hired you?"
+                    "question": "What's the first thing you'd do if we hired you?"
                 }, {
                     "question": "How do you stay up-to-date with trends and best practices in product management?"
                 }, {
@@ -81,11 +81,11 @@ export default function questions() {
                 }, {
                     "question": "What is your biggest professional failure, and how did you deal with it?"
                 }, {
-                    "question": "What’s something that you’re obsessed with?"
+                    "question": "What's something that you're obsessed with?"
                 }, {
                     "question": "Can you teach me something in 5 minutes?"
                 }, {
-                    "question": "Why shouldn’t we hire you?"
+                    "question": "Why shouldn't we hire you?"
                 }, {
                     "question": "What technical skill do you have that sets you apart as a product manager?"
                 }
@@ -143,7 +143,7 @@ export default function questions() {
                 }, {
                     "question": "Is consensus always a good thing?"
                 }, {
-                    "question": "What’s the best way to work with executives?"
+                    "question": "What's the best way to work with executives?"
                 }, {
                     "question": "What is the best way to work with customers and users?"
                 }, {
@@ -153,7 +153,7 @@ export default function questions() {
                 }, {
                     "question": "What would you do to get a team to stick to a schedule?"
                 }, {
-                    "question": "What’s the difference between leadership and management?"
+                    "question": "What's the difference between leadership and management?"
                 }, {
                     "question": "What aspects of product management do you find the most exciting?"
                 }, {
@@ -180,9 +180,9 @@ export default function questions() {
         "product": {
             "design": [
                 {
-                    "question": "What is a product you love and why"
+                    "question": "What is a physical product you love and why"
                 }, {
-                    "question": "What is a product you hate and why"
+                    "question": "What is a phyiscal product you hate and why"
                 }, {
                     "question": "What is a software you love and why"
                 }, {
@@ -217,9 +217,11 @@ export default function questions() {
                     "question": "How would you change __companyName__'s __companyProduct__?",
                     "useVariables": true
                 }, {
-                    "question": "Design an app for the Louvre."
+                    "question": "Design an app for __landmark__.",
+                    "useVariables": true
                 }, {
-                    "question": "Give some feedback and analysis on the features of Twitter that delight the user."
+                    "question": "Give some feedback and analysis on the features of __companyName__ that delight the user.",
+                    "useVariables": true
                 }, {
                     "question": "What are your favorite techniques to include the voice of the user in your team deliberations?"
                 }, {
@@ -227,9 +229,13 @@ export default function questions() {
                 }, {
                     "question": "How do you determine what users need?"
                 }, {
-                    "question": "What’s one of your all-time favorite products, and how would you improve it?"
+                    "question": "What's one of your all-time favorite products, and how would you improve it?"
                 }, {
-                    "question": "Design a fridge for the blind."
+                    "question": "Design __complicatedHouseholdProduct__ for the blind.",
+                    "useVariables": true
+                }, {
+                    "question": "Whats the worst thing about __complicatedHouseholdProduct__.",
+                    "useVariables": true
                 }
             ],
             "strategy": [
@@ -267,7 +273,8 @@ export default function questions() {
                 }, {
                     "question": "Tell me about a company that has great customer service, what they do and why do they do it well?"
                 }, {
-                    "question": "What will be the impact of self-driving cars?"
+                    "question": "What will be the impact of __emergingTechnology__?",
+                    "useVariables": true
                 }, {
                     "question": "If you could implement a new feature for __companyName__'s __companyProduct__, what would it be?",
                     "useVariables": true
@@ -314,14 +321,14 @@ export default function questions() {
         "technical": {
             "general": [
                 {
-                    "question": "I have seen that, in the past, you have worked as [position]. Can you tell me what this taught you with regards to the importance of stakeholder management?"
+                    "question": "What has your previous role taught you with regards to the importance of stakeholder management?"
                 }, {
                     "question": "What do you think makes a Technical Product Manager stand out? Are there any differences with regular Product Management?"
-                }, {
+                }, /*{
                     "question": "In this position, you will be in charge of [processes] and [teams]. Can you tell me whether you have had similar experiences in the past?"
                 }, {
                     "question": "Are you familiar with [system] that we use here? Can you clarify how you have used them in the past?"
-                }, {
+                },*/ {
                     "question": "Is there a particular life experience that shows your willingness to learn new techniques?"
                 }, {
                     "question": "We are very interested in training our PMs on the technical side of the business. Do you have any mentoring experience you can bring to the table?"
@@ -336,53 +343,106 @@ export default function questions() {
                 }, {
                     "question": "What are your favored tools to manage the wire-framing process? Why?"
                 }, {
-                    "question": "How do you bring “the user” in as a Technical Product Manager?"
+                    "question": "How do you bring \"the user\" in as a Technical Product Manager?"
                 }, {
                     "question": "How do you ensure that market-oriented teams fully understand technical challenges?"
                 }, {
                     "question": "How do you align technical goals with business targets?"
                 }, {
                     "question": "How do you measure success with a product?"
+                }, {
+                    "question": "__companyProduct__ metrics are down 10%. How would you go about determining the root cause?",
+                    "useVariables": true
+                }, {
+                    "question": "__companyProduct__ metrics are down 20%. How would you report this to the executive team?",
+                    "useVariables": true
+                }, {
+                    "question": "What metrics did you use to measure the successful launch of your product?"
+                }, {
+                    "question": "Imagine you are the PM of __companyName__'s __companyProduct__. How would you measure retention?",
+                    "useVariables": true
+                }, {
+                    "question": "What metrics would you use to measure the success of __companyName__'s __companyProduct__?",
+                    "useVariables": true
+                }, {
+                    "question": "How would you determine post ranking in the Facebook Newsfeed?"
+                }, {
+                    "question": "Tell me what metrics you would look at as a product manager for Instagram ads"
+                }, {
+                    "question": "How would you measure the success of the new __companyName__ __companyProduct__ UI?",
+                    "useVariables": true
+                }, {
+                    "question": "What analysis would you use to understand if we should increase the price of an Amazon Prime Membership?"
+                }, {
+                    "question": "How would you determine the negative value of an abusive posting?"
+                }, {
+                    "question": "What are the things that __companyName__ should measure and analyze on a daily basis?",
+                    "useVariables": true
+                }, {
+                    "question": "How would you measure the success of Apple's WWDC event?"
+                }, {
+                    "question": "Users are no longer signing up for our email list. What would you do?"
+                }, {
+                    "question": "There's been a 15% drop in usage of __companyName__'s __companyProduct__. How do you fix it?",
+                    "useVariables": true
+                }, {
+                    "question": "You have just localized an ecommerce site in Germany and now see that traffic has reduced — what could be the reasons?"
+                }, {
+                    "question": "The usage of Facebook Event's \"Yes I'm going\" dropped 30% overnight. What data would you look at to try to isolate the issue?"
+                }, {
+                    "question": "You are looking at __companyName__'s Daily Active User data worldwide and notice a 10% jump compared to yesterday in Indonesia. What happened?",
+                    "useVariables": true
+                }, {
+                    "question": "You are the PM of Facebook 3rd Party Login, and you see your numbers are declining 2% each week. What do you do?",
+                    "useVariables": true
+                }, {
+                    "question": "__companyName__ traffic went down 5%. How would you report this issue to the executive team?",
+                    "useVariables": true
+                }, {
+                    "question": "__companyProduct__ metrics are down 20%. How would you report this to the executive team?",
+                    "useVariables": true
                 },
             ],
             "analysis": [
                 {
                     "question": "How many people are currently online in Europe?"
                 }, {
-                    "question": "How many windows are in New York City?"
-                }, {
-                    "question": "How many iPads are sold in the USA every year?"
-                }, {
-                    "question": "How much money is spent in the USA per year on gas?"
-                }, {
-                    "question": "How would you go about finding out the number of blue cars in China?"
-                }, {
-                    "question": "How many people are watching YouTube in India right now."
-                }, {
-                    "question": "If you want to build the world’s most popular mobile messaging product, and you need to estimate how much network bandwidth would be used in a year. How would you go about doing this?"
-                }, {
-                    "question": "__companyProduct__ metrics are down. How would you go about determining the root cause?",
+                    "question": "How many windows are in __bigCity__?",
                     "useVariables": true
+                }, {
+                    "question": "How many iPads are sold in the __country__ every year?",
+                    "useVariables": true
+                }, {
+                    "question": "How much money is spent in __country__ per year on gas?",
+                    "useVariables": true
+                }, {
+                    "question": "How would you go about finding out the number of blue cars in __country__?",
+                    "useVariables": true
+                }, {
+                    "question": "How many people are watching YouTube in __country__ right now.",
+                    "useVariables": true
+                }, {
+                    "question": "If you want to build the world's most popular mobile messaging product, and you need to estimate how much network bandwidth would be used in a year. How would you go about doing this?"
                 }, {
                     "question": "How would you store all the phone calls in the world?"
                 }, {
-                    "question": "What KPIs would you use to measure success for the Echo Dot?"
+                    "question": "What KPIs would you use to measure success for the Amazon Echo Dot?"
                 }, {
                     "question": "How much data does __companyName__'s __companyProduct__ product generate each day?",
                     "useVariables": true
                 }
             ],
             "engineering": [
-                {
+                /*{
                     "question": "Our engineering teams are pretty used to employing [methodologies]. What is your opinion of them? Have you used them in the past?"
-                }, {
+                },*/ {
                     "question": "What is the importance of engineers and technical teams as stakeholders? How do you integrate them into the overall product vision?"
                 }, {
                     "question": "Can you provide an example where a technical solution you or your team designed became a commercial product?"
                 }, {
                     "question": "How do you ensure that market-oriented teams fully understand technical challenges?"
                 }, {
-                    "question": "When are Bayesian methods more appropriate than “Artificial Intelligence” techniques for predictive analytics?"
+                    "question": "When are Bayesian methods more appropriate than Artificial Intelligence techniques for predictive analytics?"
                 }, {
                     "question": "Explain ACID transactions."
                 },

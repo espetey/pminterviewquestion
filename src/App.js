@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { get } from 'lodash';
+// import { get } from 'lodash';
 import './App.css';
 import About from './About';
 import questions from './data/questions';
@@ -25,20 +25,19 @@ function App() {
     setTopAnchor(document.getElementById('top'));
     setAboutAnchor(document.getElementById('about'));
     setDataAnchor(document.getElementById('data'));
+  }, []);
 
-    window.addEventListener('keydown', (e) => {
-      const keyCode = get(e, 'keyCode');
-      if (keyCode === 39) {
-        if (topAnchor) {
-          scrollTo(topAnchor);
-        }
-        setQuestionCount(questionCount + 1);
-      }
-      return () => {
-        window.removeEventListener('keydown');
-      };
-    });
-  }, [questionCount, topAnchor]);
+  // useEffect(() => {
+  //   window.addEventListener('keydown', (e) => {
+  //     const keyCode = get(e, 'keyCode');
+  //     if (keyCode === 39) {
+  //       setQuestionCount(questionCount + 1);
+  //     }
+  //     return () => {
+  //       window.removeEventListener('keydown');
+  //     };
+  //   });
+  // }, [setQuestionCount]);
 
   useEffect(() => {
     if (questionCount > interviewQuestions.length - 1) {

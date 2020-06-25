@@ -27,14 +27,14 @@ function About() {
         <ul>
           <li>Courtesy opener - 1 question</li>
           <li>General interview - 4 questions</li>
-          <li>Communication/Leadership - 4 questions</li>
-          <li>Communication/Behavioral - 4 questions</li>
-          <li>Communication/Conflict - 4 questions</li>
-          <li>Product/Design - 4 questions</li>
-          <li>Product/Strategy - 4 questions</li>
+          <li>Communication/Leadership - 2 questions</li>
+          <li>Communication/Behavioral - 2 questions</li>
+          <li>Communication/Conflict - 2 questions</li>
+          <li>Product/Design - 5 questions</li>
+          <li>Product/Strategy - 5 questions</li>
           <li>Technical/General - 4 questions</li>
-          <li>Technical/Analysis - 4 questions</li>
-          <li>Technical/Engineering - 4 questions</li>
+          <li>Technical/Analysis - 2 questions</li>
+          <li>Technical/Engineering - 2 questions</li>
           <li>Courtesy closers - 2 questions</li>
         </ul>
         <p>
