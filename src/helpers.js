@@ -14,17 +14,16 @@ function buildQuestion(q) {
 
 export function buildInterview(q) {
     return [
-        get(q, 'courtesy.opener[0].question'),
-        ...sampleSize(get(q, 'general.general'), 4).map(s => buildQuestion(s)),
-        ...sampleSize(get(q, 'communication.leadership'), 4).map(s => buildQuestion(s)),
-        ...sampleSize(get(q, 'communication.behavioral'), 4).map(s => buildQuestion(s)),
-        ...sampleSize(get(q, 'communication.conflict'), 4).map(s => buildQuestion(s)),
-        ...sampleSize(get(q, 'product.design'), 4).map(s => buildQuestion(s)),
-        ...sampleSize(get(q, 'product.strategy'), 4).map(s => buildQuestion(s)),
-        ...sampleSize(get(q, 'technical.general'), 4).map(s => buildQuestion(s)),
-        ...sampleSize(get(q, 'technical.analysis'), 4).map(s => buildQuestion(s)),
-        ...sampleSize(get(q, 'technical.engineering'), 4).map(s => buildQuestion(s)),
-        get(q, 'courtesy.closer[0].question'),
-        get(q, 'courtesy.closer[1].question')
-    ]
+        get(q, 'courtesy.opener[0]'),
+        ...sampleSize(get(q, 'general.general'), 4),
+        ...sampleSize(get(q, 'communication.leadership'), 4),
+        ...sampleSize(get(q, 'communication.behavioral'), 4),
+        ...sampleSize(get(q, 'communication.conflict'), 4),
+        ...sampleSize(get(q, 'product.design'), 4),
+        ...sampleSize(get(q, 'product.strategy'), 4),
+        ...sampleSize(get(q, 'technical.general'), 4),
+        ...sampleSize(get(q, 'technical.analysis'), 4),
+        ...sampleSize(get(q, 'technical.engineering'), 4),
+        ...get(q, 'courtesy.closer'),
+    ].map(s => buildQuestion(s))
 };

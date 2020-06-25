@@ -21,6 +21,23 @@ function About() {
         <p>
           I would love to be a product manager at a great technology company. I decided to build a quick app to help me step through various recommended interview questions in a way that mimics a real interview. It is also a good script for the friends I convince to give me a mock interview. I hope it will be useful for anyone else who is going through the same process.
         </p>
+        <p>
+          The progression of the interview here (which does not neccessarily parallel an actual PM interview) is built from a random selection of categorized questions in the following order:
+          <ul>
+            <li>Courtesy opener - 1 question</li>
+            <li>General interview - 4 questions</li>
+            <li>Communication/Leadership - 4 questions</li>
+            <li>Communication/Behavioral - 4 questions</li>
+            <li>Communication/Conflict - 4 questions</li>
+            <li>Product/Design - 4 questions</li>
+            <li>Product/Strategy - 4 questions</li>
+            <li>Technical/General - 4 questions</li>
+            <li>Technical/Analysis - 4 questions</li>
+            <li>Technical/Engineering - 4 questions</li>
+            <li>Courtesy closers - 2 questions</li>
+          </ul>
+          I have included "Technical/Engineering" questions by default for coverage on Technical Product Manager positions. As time permits I'll add a few bells and whistles here to customize the question flow for other own configurations (technical/non-technical, company specific, and category specific).
+        </p>
       </div>
       <div className="info">
         <h3>Add a question, company, or product</h3>
@@ -37,7 +54,7 @@ function About() {
       <div className="info">
         <h3>Data collection and analytics</h3>
         <p>
-          I use Google Analytics for this app to measure usage and to learn more about Google's Analytics platform in general.
+          I use Google Analytics for this app to measure usage and to learn more about Google's analytics platform in general.
         </p>
       </div>
       <div className="info">
