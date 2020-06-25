@@ -128,7 +128,7 @@ export default function questions() {
                 }, {
                     "question": "Give me an example when you had to influence others who disagreed with you"
                 }, {
-                    "question": "How do you make decisions when disagreeing with exec team members or key stakeholders? How do you manage conflict in these situations?"
+                    "question": "How do you make decisions when disagreeing with executive team members or key stakeholders? How do you manage conflict in these situations?"
                 }, {
                     "question": "How did you handle disagreements with key stakeholders, whether engineers, cross-team dependencies, or executives?"
                 }, {

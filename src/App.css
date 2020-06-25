@@ -41,18 +41,32 @@
   font-size: calc(10px + 1vmin);
 }
 
-.Next {
+nav {
   position: fixed;
-  bottom: 15px;
-  right: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
   z-index: 9999999;
+  background-color: #282c34;
+}
+
+.Nav-btn {
+  flex-grow: 1;
+  padding: 1vh;
+  font-size: calc(10px + 1vmin);
+  border-radius: 0px;
+  border: none;
+  background-color: #5d5d5d;
+  color: #fff;
 }
 
 .Next-btn {
-  padding: 1vh;
-  font-size: calc(10px + 1vmin);
-  border-radius: 5px;
-  border: none;
+  background-color: #1bb100;
+}
+
+.Nav-btn:not(:first-child) {
+  border-left: solid 1px #282c34;
 }
 
 img.Interviewer {
@@ -67,7 +81,7 @@ img.Interviewer {
 }
 
 .question {
-  font-size: calc(10px + 4.0vmin);
+  font-size: calc(10px + 3.0vmin);
   padding: 0 1vw;
 }
 
