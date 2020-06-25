@@ -23,19 +23,21 @@ function About() {
         </p>
         <p>
           The progression of the interview here (which does not neccessarily parallel an actual PM interview) is built from a random selection of categorized questions in the following order:
-          <ul>
-            <li>Courtesy opener - 1 question</li>
-            <li>General interview - 4 questions</li>
-            <li>Communication/Leadership - 4 questions</li>
-            <li>Communication/Behavioral - 4 questions</li>
-            <li>Communication/Conflict - 4 questions</li>
-            <li>Product/Design - 4 questions</li>
-            <li>Product/Strategy - 4 questions</li>
-            <li>Technical/General - 4 questions</li>
-            <li>Technical/Analysis - 4 questions</li>
-            <li>Technical/Engineering - 4 questions</li>
-            <li>Courtesy closers - 2 questions</li>
-          </ul>
+          </p>
+        <ul>
+          <li>Courtesy opener - 1 question</li>
+          <li>General interview - 4 questions</li>
+          <li>Communication/Leadership - 4 questions</li>
+          <li>Communication/Behavioral - 4 questions</li>
+          <li>Communication/Conflict - 4 questions</li>
+          <li>Product/Design - 4 questions</li>
+          <li>Product/Strategy - 4 questions</li>
+          <li>Technical/General - 4 questions</li>
+          <li>Technical/Analysis - 4 questions</li>
+          <li>Technical/Engineering - 4 questions</li>
+          <li>Courtesy closers - 2 questions</li>
+        </ul>
+        <p>
           I have included "Technical/Engineering" questions by default for coverage on Technical Product Manager positions. As time permits I'll add a few bells and whistles here to customize the question flow for other configurations (technical/non-technical, company specific, and category specific).
         </p>
       </div>

@@ -13,34 +13,6 @@
   justify-content: center;
 }
 
-.App-header,
-.App-footer {
-  position: fixed;
-  display: flex;
-  left: 0;
-  width: 100%;
-  background-color: #282c34;
-  font-size: calc(10px + 0.5vmin);
-  padding: 18px;
-}
-
-.App-header {
-  top: 0;
-  left: 0;
-}
-
-.App-footer {
-  bottom: 0;
-}
-
-.App-header div:not(:first-child) {
-  margin-left: 18px;
-}
-
-.App-body {
-  font-size: calc(10px + 1vmin);
-}
-
 nav {
   position: fixed;
   bottom: 0;
@@ -53,7 +25,7 @@ nav {
 
 .Nav-btn {
   flex-grow: 1;
-  padding: 1vh;
+  height: 50px;
   font-size: calc(10px + 1vmin);
   border-radius: 0px;
   border: none;
@@ -69,20 +41,60 @@ nav {
   border-left: solid 1px #282c34;
 }
 
-img.Interviewer {
+.Interviewer,
+.Question {
+  width: 100%;
+}
+
+.Interviewer {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.interviewer-img {
+  height: 50vh;
   width: 50vw;
-  max-width: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+}
+
+@media (max-width: 800px) {
+  .interviewer-img {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .interviewer-img {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .interviewer-img {
+    width: 80vw;
+  }
+}
+
+.Question {
+  height: 35vh;
+  font-size: calc(10px + 3.0vmin);
+  padding: 1vw 0 0;
+}
+
+.question-text {
+  padding: 0 5vw;
 }
 
 .About {
   width: 80vw;
   margin: auto;
   font-size: calc(10px + 0.5vmin);
-}
-
-.question {
-  font-size: calc(10px + 3.0vmin);
-  padding: 0 1vw;
 }
 
 .info {
@@ -95,4 +107,80 @@ img.Interviewer {
 
 .data-table td {
   border: solid #747474 1px;
+}
+
+.interviewer-0 {
+  background-image: url('./interviewers/0.jpg');
+}
+
+.interviewer-1 {
+  background-image: url('./interviewers/1.jpg');
+}
+
+.interviewer-2 {
+  background-image: url('./interviewers/2.jpg');
+}
+
+.interviewer-3 {
+  background-image: url('./interviewers/3.jpg');
+}
+
+.interviewer-4 {
+  background-image: url('./interviewers/4.jpg');
+}
+
+.interviewer-5 {
+  background-image: url('./interviewers/5.jpg');
+}
+
+.interviewer-6 {
+  background-image: url('./interviewers/6.jpg');
+}
+
+.interviewer-7 {
+  background-image: url('./interviewers/7.jpg');
+}
+
+.interviewer-8 {
+  background-image: url('./interviewers/8.jpg');
+}
+
+.interviewer-9 {
+  background-image: url('./interviewers/9.jpg');
+}
+
+.interviewer-10 {
+  background-image: url('./interviewers/10.jpg');
+}
+
+.interviewer-11 {
+  background-image: url('./interviewers/11.jpg');
+}
+
+.interviewer-12 {
+  background-image: url('./interviewers/12.jpg');
+}
+
+.interviewer-13 {
+  background-image: url('./interviewers/13.jpg');
+}
+
+.interviewer-14 {
+  background-image: url('./interviewers/14.jpg');
+}
+
+.interviewer-15 {
+  background-image: url('./interviewers/15.jpg');
+}
+
+.interviewer-16 {
+  background-image: url('./interviewers/16.jpg');
+}
+
+.interviewer-17 {
+  background-image: url('./interviewers/17.jpg');
+}
+
+.interviewer-18 {
+  background-image: url('./interviewers/18.jpg');
 }

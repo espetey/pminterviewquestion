@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { sample } from 'lodash';
+import { get } from 'lodash';
 import './App.css';
 import About from './About';
 import questions from './data/questions';
-import interviewers from './interviewers';
 import { buildInterview } from './helpers';
 
 function scrollTo(anchor) {
   anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
 }
 
 function App() {
@@ -22,7 +25,20 @@ function App() {
     setTopAnchor(document.getElementById('top'));
     setAboutAnchor(document.getElementById('about'));
     setDataAnchor(document.getElementById('data'));
-  }, []);
+
+    window.addEventListener('keydown', (e) => {
+      const keyCode = get(e, 'keyCode');
+      if (keyCode === 39) {
+        if (topAnchor) {
+          scrollTo(topAnchor);
+        }
+        setQuestionCount(questionCount + 1);
+      }
+      return () => {
+        window.removeEventListener('keydown');
+      };
+    });
+  }, [questionCount, topAnchor]);
 
   useEffect(() => {
     if (questionCount > interviewQuestions.length - 1) {
@@ -30,8 +46,10 @@ function App() {
     }
   }, [interviewQuestions, questionCount, setQuestionCount]);
 
+  const interviewerImage = `interviewer-img interviewer-${getRandomInt(17).toString()}`;
+
   return (
-    <div id="top" className="App-Container">
+    <>
       <nav>
         <button className="Nav-btn Title-btn" onClick={() => scrollTo(topAnchor)}>
           PM Interview Question
@@ -51,16 +69,20 @@ function App() {
           Next Question
         </button>
       </nav>
-      <div className="App">
-        <div className="App-body">
-          <img src={sample(interviewers)} className="Interviewer" alt="interview" />
-          <p className="question">
-            {interviewQuestions[questionCount]}
-          </p>
+      <div id="top" className="App-Container">
+        <div className="App">
+          <div className="Interviewer">
+            <div className={interviewerImage} />
+          </div>
+          <div className="Question">
+            <div className="question-text">
+              {interviewQuestions[questionCount]}
+            </div>
+          </div>
         </div>
-      </div>
-      <About />
-    </div >
+        <About />
+      </div >
+    </>
   );
 }
 
