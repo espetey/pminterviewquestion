@@ -47,7 +47,7 @@ nav {
 }
 
 .Interviewer {
-  height: 75vh;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,7 +58,7 @@ nav {
 }
 
 .Question {
-  height: 25vh;
+  height: 35vh;
   font-size: calc(10px + 2.0vmin);
   padding: 1vw 0 0;
 }
