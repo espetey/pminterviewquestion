@@ -94,7 +94,7 @@ export default function questions() {
         "communication": {
             "behavioral": [
                 {
-                    "question": "Tell me about a challenging issue or challenge you took on"
+                    "question": "Tell me about a challenging issue or challenge you took on."
                 }, {
                     "question": "Tell me about how you interact with customers/users?"
                 }, {
@@ -104,27 +104,28 @@ export default function questions() {
                 }, {
                     "question": "Tell me about a mistake you made and how you handled it."
                 }, {
-                    "question": "One executive says that Feature A is more important and another executive says Feature B is more important. How do you choose which one to implement"
+                    "question": "One executive says that Feature A is more important and another executive says Feature B is more important. How do you choose which one to implement?"
                 }, {
                     "question": "Tell me about a time you used data to make a decision."
                 }, {
-                    "question": "Why Amazon? Why this PM position?"
+                    "question": "Why __companyName__? Why this PM position?",
+                    "useVariables": true
                 }, {
-                    "question": "Describe a time you have disagreed with your manager"
+                    "question": "Describe a time you have disagreed with your manager."
                 }, {
                     "question": "What is the most innovative idea you've ever had?"
                 }, {
                     "question": "When was a time that you failed at work?"
                 }, {
-                    "question": "Demonstrate how you align with the __companyName__ leadership philosophy",
+                    "question": "Demonstrate how you align with the __companyName__ leadership philosophy.",
                     "useVariables": true
                 },
             ],
             "conflict": [
                 {
-                    "question": "Tell me an example when you had to deal with conflict, and how you handled it"
+                    "question": "Tell me an example when you had to deal with conflict, and how you handled it."
                 }, {
-                    "question": "Give me an example when you had to influence others who disagreed with you"
+                    "question": "Give me an example when you had to influence others who disagreed with you."
                 }, {
                     "question": "How do you make decisions when disagreeing with executive team members or key stakeholders? How do you manage conflict in these situations?"
                 }, {
@@ -178,17 +179,17 @@ export default function questions() {
         "product": {
             "design": [
                 {
-                    "question": "What is a physical product you love and why"
+                    "question": "What is a physical product you love and why?"
                 }, {
-                    "question": "What is a phyiscal product you hate and why"
+                    "question": "What is a phyiscal product you hate and why?"
                 }, {
-                    "question": "What is a software you love and why"
+                    "question": "What is a software you love and why?"
                 }, {
-                    "question": "What is a software you hate and why"
+                    "question": "What is a software you hate and why?"
                 }, {
-                    "question": "What is an experience you love and why"
+                    "question": "What is an experience you love and why?"
                 }, {
-                    "question": "What is an experience you hate and why"
+                    "question": "What is an experience you hate and why?"
                 }, {
                     "question": "How would you improve the functionality 10x of what it is now?"
                 }, {
@@ -279,7 +280,7 @@ export default function questions() {
                 }, {
                     "question": "Which tech trend are you following at the moment?"
                 }, {
-                    "question": "Discuss the long-term product roadmaps and strategies of __companyName__ to increase market share",
+                    "question": "Discuss the long-term product roadmaps and strategies of __companyName__ to increase market share.",
                     "useVariables": true
                 }, {
                     "question": "Which emerging trend is the most interesting to you?"
@@ -365,7 +366,7 @@ export default function questions() {
                 }, {
                     "question": "How would you determine post ranking in the Facebook Newsfeed?"
                 }, {
-                    "question": "Tell me what metrics you would look at as a product manager for Instagram ads"
+                    "question": "Tell me what metrics you would look at as a product manager for Instagram ads."
                 }, {
                     "question": "How would you measure the success of the new __companyName__ __companyProduct__ UI?",
                     "useVariables": true
