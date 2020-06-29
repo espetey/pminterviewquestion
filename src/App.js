@@ -45,7 +45,7 @@ function App() {
     }
   }, [interviewQuestions, questionCount, setQuestionCount]);
 
-  const interviewerImage = `interviewer-img interviewer-${getRandomInt(17).toString()}`;
+  const interviewerImage = `Interviewer interviewer-${getRandomInt(17).toString()}`;
 
   return (
     <>
@@ -70,8 +70,7 @@ function App() {
       </nav>
       <div id="top" className="App-Container">
         <div className="App">
-          <div className="Interviewer">
-            <div className={interviewerImage} />
+          <div className={interviewerImage}>
           </div>
           <div className="Question">
             <div className="question-text">

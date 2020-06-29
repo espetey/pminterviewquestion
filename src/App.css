@@ -47,43 +47,19 @@ nav {
 }
 
 .Interviewer {
-  height: 65vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.interviewer-img {
-  height: 50vh;
-  width: 50vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 50px;
-}
-
-@media (max-width: 800px) {
-  .interviewer-img {
-    width: 60vw;
-  }
-}
-
-@media (max-width: 600px) {
-  .interviewer-img {
-    width: 70vw;
-  }
-}
-
-@media (max-width: 500px) {
-  .interviewer-img {
-    width: 80vw;
-  }
 }
 
 .Question {
-  height: 35vh;
-  font-size: calc(10px + 3.0vmin);
+  height: 25vh;
+  font-size: calc(10px + 2.0vmin);
   padding: 1vw 0 0;
 }
 

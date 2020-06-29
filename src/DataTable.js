@@ -1,4 +1,5 @@
 import React from 'react';
+import './DataTable.css';
 
 function DataTable() {
     return (
@@ -260,7 +261,7 @@ function DataTable() {
                 </tbody>
             </table>
             <h3>References</h3>
-            <ol>
+            <ol className="references">
                 <li><a target="_blank" rel="noopener noreferrer" href="https://www.worldometers.info/world-population/">https://www.worldometers.info/world-population/</a></li>
                 <li><a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy">https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy</a></li>
                 <li><a target="_blank" rel="noopener noreferrer" href="https://www.computerhope.com/issues/chspace.htm">https://www.computerhope.com/issues/chspace.htm</a></li>
