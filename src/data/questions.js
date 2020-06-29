@@ -104,9 +104,7 @@ export default function questions() {
                 }, {
                     "question": "Tell me about a mistake you made and how you handled it."
                 }, {
-                    "question": "One executive says that Feature A is more important and another executive says Feature B is more important."
-                }, {
-                    "question": "How do you choose which one to implement?"
+                    "question": "One executive says that Feature A is more important and another executive says Feature B is more important. How do you choose which one to implement"
                 }, {
                     "question": "Tell me about a time you used data to make a decision."
                 }, {
