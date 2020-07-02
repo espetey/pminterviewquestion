@@ -181,17 +181,15 @@ export default function questions() {
                 {
                     "question": "What is a physical product you love and why?"
                 }, {
-                    "question": "What is a phyiscal product you hate and why?"
+                    "question": "What is a phyiscal product you hate and why? How would you improve the functionality 10-fold from what it is now?"
                 }, {
                     "question": "What is a software you love and why?"
                 }, {
-                    "question": "What is a software you hate and why?"
+                    "question": "What is a software you hate and why? How would you improve the functionality 10-fold from what it is now?"
                 }, {
                     "question": "What is an experience you love and why?"
                 }, {
-                    "question": "What is an experience you hate and why?"
-                }, {
-                    "question": "How would you improve the functionality 10x of what it is now?"
+                    "question": "What is an experience you hate and why? How would you improve the functionality 10-fold from what it is now?"
                 }, {
                     "question": "How would you increase adoption of __companyName__'s __companyProduct__?",
                     "useVariables": true
@@ -208,6 +206,8 @@ export default function questions() {
                     "question": "What do you dislike about our product?"
                 }, {
                     "question": "Pick a product that you used this morning and tell me why you like it."
+                }, {
+                    "question": "Pick a product that you used this morning and tell me what you don't like about it."
                 }, {
                     "question": "Pick a product you hate and tell me how you'd improve it."
                 }, {
