@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="About">
       <div className="info">
-        <h1 id="about">About</h1>
+        <h1 id="about">About PM Interview Question</h1>
         <p>
           Interested in getting a PM interview question each morning to workshop during your day?
         </p>

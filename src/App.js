@@ -50,8 +50,8 @@ function App() {
   return (
     <>
       <nav>
-        <button className="Nav-btn Title-btn" onClick={() => scrollTo(topAnchor)}>
-          PM Interview Question
+        <button className="Nav-btn" onClick={() => window.open('https://blog.pminterviewquestion.com')}>
+          Blog
         </button>
         <button className="Nav-btn" onClick={() => scrollTo(aboutAnchor)}>
           About
