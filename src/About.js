@@ -17,6 +17,12 @@ function About() {
         </p>
       </div>
       <div className="info">
+        <h3>Data collection and analytics</h3>
+        <p>
+          I use Google Analytics for this app to measure usage and to learn more about Google's analytics platform in general. By using this website and browsing its content, you agree to visitation data being collected, such as IP address and visitation time and duration. I refer to this data to improve PM Interview Question, measure site performance, and to educate myself about Google Analytics.
+        </p>
+      </div>
+      <div className="info">
         <h3>What is this thing?</h3>
         <p>
           I would love to be a product manager at a great technology company. I decided to build a quick app to help me step through various recommended interview questions in a way that mimics a real interview. It is also a good script for the friends I convince to give me a mock interview. I hope it will be useful for anyone else who is going through the same process.
@@ -51,12 +57,6 @@ function About() {
         <h3>Why the pictures of people?</h3>
         <p>
           This fun little website is no substitue for interviewing with real people, either in an actual job interview or with a friend or colleague in a mock interview setting. But I thought a random stock picture with someone would be good practice for making eye contact. If you have suggestions for other pictures, think any of the ones I'm using are too creepy, or have any other ideas, <a className="App-link" href="https://github.com/espetey/pminterviewquestion" target="_blank" rel="noopener noreferrer">open a pull request on GitHub</a> or <a href="https://twitter.com/espetey" target="_blank" rel="noopener noreferrer">talk to me on Twitter</a>.
-        </p>
-      </div>
-      <div className="info">
-        <h3>Data collection and analytics</h3>
-        <p>
-          I use Google Analytics for this app to measure usage and to learn more about Google's analytics platform in general.
         </p>
       </div>
       <div className="info">
