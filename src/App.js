@@ -54,7 +54,7 @@ function App() {
           Blog
         </button>
         <button className="Nav-btn" onClick={() => scrollTo(aboutAnchor)}>
-          About
+          Newsletter
         </button>
         <button className="Nav-btn" onClick={() => scrollTo(dataAnchor)}>
           Data
