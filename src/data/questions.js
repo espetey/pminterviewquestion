@@ -158,7 +158,7 @@ export default function questions() {
                 }, {
                     "question": "Tell me about a time when you had to build or motivate a team."
                 }, {
-                    "question": "What do you think a day to day would be like for a product manager?"
+                    "question": "What do you think an average day would be like for a product manager?"
                 }, {
                     "question": "How do you think product managers interact with engineers?"
                 }, {
