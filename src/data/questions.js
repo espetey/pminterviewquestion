@@ -244,15 +244,15 @@ export default function questions() {
                     "question": "What is the first thing you would do if you became the CEO of __companyName__?",
                     "useVariables": true
                 }, {
-                    "question": "Describe a scenario which required you to say not to an idea or product."
+                    "question": "Describe a scenario which required you to say no to an idea or product."
                 }, {
                     "question": "How do you decide what and what not to build?"
                 }, {
-                    "question": "What is a product you currently use every day, why and how would you improve it?"
+                    "question": "What is a product you currently use every day? Why do you use it daily and how would you improve it?"
                 }, {
                     "question": "There is a data point that indiciates that there are more Uber drop-offs at the airport than pick-ups from the airport. Why is this the case and what would you do within the product to change that?"
                 }, {
-                    "question": "While we make products for the general public, we also have a B2B division. What is your experience with juggling both markets?"
+                    "question": "We make products for the general public but we also have a B2B division. What is your experience with juggling both markets?"
                 }, {
                     "question": "What is one improvement you would implement for our product in the next 6 months?"
                 }, {
