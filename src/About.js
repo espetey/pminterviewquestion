@@ -16,12 +16,12 @@ function About() {
           Since I'm currently preparing for PM interviews, I'll also include either my full-blown answer from the day before or just some meditations/brainstorming on the previous day's question. If you feel like replying to the email with your response, I will try to give some feedback in exchange for some feedback on my own answer.
         </p>
       </div>
-      <div className="info">
+      {/* <div className="info">
         <h3>Data collection and analytics</h3>
         <p>
           I use Google Analytics for this app to measure usage and to learn more about Google's analytics platform in general. By using this website and browsing its content, you agree to visitation data being collected, such as IP address and visitation time and duration. I refer to this data to improve PM Interview Question, measure site performance, and to educate myself about Google Analytics.
         </p>
-      </div>
+      </div> */}
       <div className="info">
         <h3>What is this thing?</h3>
         <p>
